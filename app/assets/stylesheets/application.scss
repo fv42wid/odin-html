@@ -1,0 +1,69 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or any plugin's vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any other CSS/SCSS
+ * files in this directory. Styles in this file should be added after the last require_* statement.
+ * It is generally better to create a new file per style scope.
+ *
+ *= require_tree .
+ *= require_self
+ */
+
+body {
+  margin: 0;
+  background-color: #f1f1f1;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  width: 100%;
+  height: 50px;
+  background-color: #fff;
+  .header-label {
+    float: left;
+    height: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 30px;
+  }
+  .search-field {
+    width: 570px;
+    height: 25px;
+    margin-top: 12px;
+    margin-left: 40px;
+    padding-right: 50px;
+  }
+  input[type="submit"].search-button {
+    height: 27px;
+    width: 50px;
+    margin-left: -55px;
+    -webkit-appearance: none;
+    border: 0;
+  }
+  .header-right {
+    float: right;
+    width: 150px;
+    height: 50px;
+    .upload-btn {
+      -webkit-appearance: none;
+      height: 27px;
+      width: 50px;
+      margin-top: 12px; 
+    }
+    .signin-btn {
+      -webkit-appearance: none;
+      height: 27px;
+      width: 50px;
+      margin-top: 12px;
+    }
+  }
+}
