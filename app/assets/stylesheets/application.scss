@@ -67,3 +67,33 @@ body {
     }
   }
 }
+
+.content {
+  margin-top: 10px;
+  width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+  .thumbnails {
+    float: right;
+    background-color: #fff;
+    width: 400px;
+    padding-left: 10px;
+    .preview {
+      width: 400px;
+      height: 100px;
+      margin-top: 10px;
+      .preview-right {
+        float: right;
+	width: 210px;
+	margin-right: 10px;
+	p {
+	  color: #777;
+	}	
+      }
+    }
+  }
+  .player {
+    width: 580px;
+    margin-right: 420px;
+  }
+}
