@@ -96,4 +96,35 @@ body {
     width: 580px;
     margin-right: 420px;
   }
+  .info {
+    background-color: #fff;
+    margin-top: 10px;
+    width: 560px;
+    height: 110px;
+    padding-top: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  h2 {
+    margin-bottom: 10px;
+  }  
+  .info-icon {
+    float: left;
+    width: 50px;
+    height: 50px;
+    background-color: green;
+  }
+  .info-info {
+    width: 500px;
+    margin-left: 70px;
+    .subscribe-btn {
+      -webkit-appearance: none;
+      margin-top: 8px;
+      border: 0;
+      background-color: red;
+      color: #fff;
+      width: 170px;
+      height: 25px;
+    }
+  }
 }
