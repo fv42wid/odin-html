@@ -14,3 +14,25 @@
 //= require jquery_ujs
 //= require turbolinks
 //= require_tree .
+
+$(function() {
+    $('div.calc-btn').click(function(event){
+	console.log($(this).text());
+    });
+});
+
+var add = function(x, y) {
+    return x + y;
+};
+
+var subtract = function(x, y) {
+    return x - y;
+};
+
+var multiply = function(x, y) {
+    return x * y;
+};
+
+var divide = function(x, y) {
+    return x / y;
+};
